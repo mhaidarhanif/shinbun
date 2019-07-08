@@ -1,8 +1,14 @@
-[include]
-src/
-
 [ignore]
 build/
 
+[include]
+src/
+
 [libs]
-./lib
+lib/
+
+[lints]
+
+[options]
+
+[strict]
