@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css?family=Gochi+Hand&display=swap');
+
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
@@ -10,4 +12,52 @@ body {
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.logo {
+  font-family: 'Gochi Hand', cursive;
+  font-size: 3em;
+  margin: 10px 0;
+}
+
+.search-bar {
+  padding: 8px 10px;
+  min-width: 300px;
+  background: #fff;
+  border: 2px solid darkgrey;
+  border-radius: 3px;
+  font-weight: bold;
+}
+
+.button {
+  padding: 5px 10px;
+  background: #fff;
+  border: 2px solid darkcyan;
+  border-radius: 3px;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.button.primary {
+  background: darkcyan;
+  color: #fff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+}
+
+.article,
+.section {
+  margin: 50px 0;
+}
+
+.article img {
+  max-width: 500px;
+}
+
+.section img {
+  max-width: 1000px;
 }

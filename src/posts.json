@@ -1,0 +1,37 @@
+{
+  "data": [
+    {
+      "image": "images/article-spiderman.jpg",
+      "imageText": "Spider-Man",
+      "type": "HEADLINE",
+      "title": "Amazing Scenes of Spider-Man: Far From Home",
+      "author": {
+        "name": "SHINBUN/GEEK",
+        "slug": "shinbun-geek"
+      },
+      "timestamp": "2019-07-08T04:57:07.327Z"
+    },
+    {
+      "image": "images/article-spiderman.jpg",
+      "imageText": "Spider-Man",
+      "type": "HEADLINE",
+      "title": "Amazing Scenes of Spider-Man: Far From Home",
+      "author": {
+        "name": "SHINBUN/GEEK",
+        "slug": "shinbun-geek"
+      },
+      "timestamp": "2019-07-08T04:57:07.327Z"
+    },
+    {
+      "image": "images/article-spiderman.jpg",
+      "imageText": "Spider-Man",
+      "type": "HEADLINE",
+      "title": "Amazing Scenes of Spider-Man: Far From Home",
+      "author": {
+        "name": "SHINBUN/GEEK",
+        "slug": "shinbun-geek"
+      },
+      "timestamp": "2019-07-08T04:57:07.327Z"
+    }
+  ]
+}

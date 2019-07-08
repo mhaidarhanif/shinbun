@@ -10,11 +10,66 @@
   </head>
   <body>
     <div id="container" class="container">
-      <header>
-        <h1>SHINBUN</h1>
+      <header id="header" class="header">
+        <h1 class="logo">SHINBUN</h1>
+        <input
+          class="search-bar"
+          type="search"
+          name="search-bar"
+          id="search-bar"
+          placeholder="Keywords..."
+        />
+        <button class="button" type="submit">🔍 Search</button>
+        <button class="button primary">📝 New</button>
+        <button class="button">🔔 Updates</button>
+        <button class="button">👤 Account</button>
       </header>
 
-      <footer>
+      <hr />
+
+      <main id="articles" class="articles">
+        <article class="article">
+          <div class="image">
+            <img src="images/article-spiderman.jpg" alt="Spider-Man" />
+          </div>
+          <div class="highlight">
+            <span>HEADLINE</span>
+            <h2>Amazing Scenes of Spider-Man: Far From Home</h2>
+            <span>SHINBUN/GEEK</span>
+            <p>
+              <button>React</button>
+              <button>Comment</button>
+              <button>Share</button>
+              <span>2 hours ago</span>
+            </p>
+          </div>
+        </article>
+
+        <section class="section">
+          <img src="images/shinbun-register.jpg" alt="Register Banner" />
+        </section>
+
+        <article class="article">
+          <div class="image">
+            <img src="images/article-spiderman.jpg" alt="Spider-Man" />
+          </div>
+          <div class="highlight">
+            <span>HEADLINE</span>
+            <h2>Amazing Scenes of Spider-Man: Far From Home</h2>
+            <span>SHINBUN/GEEK</span>
+            <p>
+              <button>React</button>
+              <button>Comment</button>
+              <button>Share</button>
+              <span>2 hours ago</span>
+            </p>
+          </div>
+        </article>
+      </main>
+
+      <hr />
+
+      <footer id="footer" class="footer">
         2019 &copy; SHINBUN Inc.
       </footer>
     </div>
