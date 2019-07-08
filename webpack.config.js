@@ -14,6 +14,9 @@ module.exports = {
     port: 8000,
   },
   plugins: [new CopyPlugin([{from: 'public', to: '.'}])],
+  resolve: {
+    modules: ['node_modules'],
+  },
   module: {
     rules: [
       {
