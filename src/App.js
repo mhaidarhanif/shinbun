@@ -1,5 +1,7 @@
 // @flow
 
+import Articles from './Articles';
+
 class App {
   constructor({title, mode}) {
     this.title = title || 'UNKNOWN';
@@ -7,7 +9,7 @@ class App {
   }
 
   static render() {
-    console.log('Hello SHINBUN!');
+    Articles.render();
   }
 }
 
