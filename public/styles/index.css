@@ -14,25 +14,42 @@ code {
     monospace;
 }
 
+a {
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+
 .logo {
   font-family: 'Gochi Hand', cursive;
   font-size: 3em;
   margin: 10px 0;
+  color: darkcyan;
+}
+
+.topics .topic {
+  margin: 0 10px;
+}
+
+.topic .important {
+  color: red;
 }
 
 .search-bar {
   padding: 8px 10px;
   min-width: 300px;
   background: #fff;
-  border: 2px solid darkgrey;
+  border: 1px solid darkgrey;
   border-radius: 3px;
   font-weight: bold;
+  text-transform: uppercase;
+  box-shadow: 0 8px 6px -6px hsl(0, 0%, 90%);
 }
 
 .button {
   padding: 5px 10px;
   background: #fff;
-  border: 2px solid darkcyan;
+  border: 1px solid darkcyan;
   border-radius: 3px;
   font-weight: bold;
   text-transform: uppercase;
@@ -47,6 +64,11 @@ code {
 .container {
   display: flex;
   flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  text-align: center;
 }
 
 .article,
