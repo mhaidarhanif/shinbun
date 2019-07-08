@@ -56,6 +56,21 @@ a {
   cursor: pointer;
 }
 
+.article .type {
+  font-weight: bold;
+  text-transform: uppercase;
+  color: gold;
+}
+
+.article button {
+  padding: 5px 10px;
+  background: none;
+  border: none;
+  font-weight: bold;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
 .button.primary {
   background: darkcyan;
   color: #fff;
