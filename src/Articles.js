@@ -25,11 +25,11 @@ class Articles {
             <span class="author">
               <a href="/${author.slug}">${author.name}</a>
             </span>
-            <p>
+            <p class="meta">
               <button>💟 Like</button>
-              <button>💬 Comment</button>
+              <button>💬 Comments</button>
               <button>⏺️ Share</button>
-              <span>${relativeTimestamp}</span>
+              <span>🗓️ ${relativeTimestamp}</span>
             </p>
           </div>
         </article>

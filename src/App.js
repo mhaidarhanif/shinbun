@@ -3,9 +3,9 @@
 import Articles from './Articles';
 
 class App {
-  constructor({title, mode}) {
-    this.title = title || 'UNKNOWN';
-    this.mode = mode || 'light';
+  constructor(title: string = 'Unknown', mode: 'light' | 'dark' = 'light') {
+    this.title = title;
+    this.mode = mode;
   }
 
   static render() {
