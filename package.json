@@ -1,0 +1,10 @@
+{
+  "name": "shinbun",
+  "version": "0.1.0",
+  "description": "SHINBUN News App",
+  "main": "index.js",
+  "repository": "https://github.com/mhaidarh/shinbun",
+  "author": "M Haidar Hanif <npm@mhaidarhanif.com>",
+  "license": "MIT",
+  "private": true
+}
