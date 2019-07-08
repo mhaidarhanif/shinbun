@@ -1,7 +1,9 @@
 # SHINBUN | Simple News App
 
+## Stack
+
 - JavaScript (ES6+)
-- Babel
-- Webpack
-- ESLint
-- Flow Static Type Checker
+- Babel (`.babelrc`)
+- Webpack (`webpack.config.js`)
+- ESLint (`.eslintrc`)
+- Flow Static Type Checker (`.flowconfig`)
